@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:background="@drawable/quiz"
+    tools:context=".LoginActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sign Up"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </View>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true"
+                app:errorIconDrawable="@null"
+                android:id="@+id/txtsignup_Input_firstname"
+                app:counterTextAppearance="@color/design_default_color_primary"
+                app:counterOverflowTextAppearance="@color/cardview_light_background">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:inputType="text"
+                    android:hint="First Name"
+                    android:id="@+id/txtsignup_firstname"
+                    android:layout_height="wrap_content">
+
+                </EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                app:errorIconDrawable="@null"
+                android:id="@+id/txtsignup_Input_lastname"
+                app:counterTextAppearance="@color/design_default_color_primary"
+                app:counterOverflowTextAppearance="@color/cardview_light_background"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:inputType="text"
+                    android:id="@+id/txtsignup_lastname"
+                    android:hint="Last Name"
+                    android:layout_height="wrap_content">
+
+                </EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:errorIconDrawable="@null"
+                android:id="@+id/txtsignup_Input_date"
+                app:errorEnabled="true"
+                app:counterTextAppearance="@color/design_default_color_primary"
+                app:counterOverflowTextAppearance="@color/cardview_light_background"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:inputType="date"
+                    android:id="@+id/txtsignup_date"
+                    android:hint="Date of Birth"
+                    android:layout_height="wrap_content"></EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                app:errorIconDrawable="@null"
+                android:id="@+id/txtsignup_Input_email"
+                app:counterTextAppearance="@color/design_default_color_primary"
+                app:counterOverflowTextAppearance="@color/cardview_light_background"
+                android:layout_height="match_parent">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Email"
+                    android:id="@+id/txtsignup_email"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="wrap_content"></EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:errorIconDrawable="@null"
+                app:errorEnabled="true"
+                app:passwordToggleEnabled="true"
+                android:id="@+id/txtsignup_Input_password"
+                app:counterTextAppearance="@color/design_default_color_primary"
+                app:counterOverflowTextAppearance="@color/cardview_light_background"
+
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:inputType="textPassword"
+                    android:id="@+id/txtsignup_password"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    >
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+            </View>
+
+
+
+
+
+            <Button
+                android:id="@+id/btn2_signup"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sign Up">
+
+            </Button>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Already have an account">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/link_signin"
+                android:linksClickable="true"
+                android:autoLink="all"
+                android:textColorLink="@color/design_default_color_primary"
+                android:text="@string/link_signin">
+
+            </TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question5Fragment"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Total Questions: 5/5" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"></View>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q5. Which numbers are prime?.Select all of them " />
+
+    <RadioGroup
+        android:id="@+id/rg_question5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/q5_A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. 9">
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/q5_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B. 11">
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/q5_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. 15">
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/q5_D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. 17">
+        </CheckBox>
+    </RadioGroup>
+
+
+</LinearLayout>
+
+

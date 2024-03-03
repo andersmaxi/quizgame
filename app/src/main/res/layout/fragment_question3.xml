@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question3Fragment"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Total Questions: 3/5">
+
+    </TextView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q3. For what value of n is |n −1| +1 equal to 0 ?" />
+
+
+    <RadioGroup
+        android:id="@+id/rg_question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/q3_A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. 0">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/q3_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B. 1">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/q3_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. 2">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/q3_D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. There is no such value of n">
+        </RadioButton>
+    </RadioGroup>
+</LinearLayout>

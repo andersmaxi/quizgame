@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CardQuizGame</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirm_answer">Confirm Answer</string>
+
+    <string name="login_register">Sign in</string>
+    <string name="login_up">Sign up</string>
+    <string name="link_signup"><a style="text-decoration:none" href="#">Sign Up</a></string>
+    <string name="link_signin"><a style="text-decoration:none" href="#">Sign In</a></string>
+</resources>

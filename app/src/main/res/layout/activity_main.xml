@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/quiz"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="50dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/design_default_color_primary"
+                android:layout_gravity="center_horizontal"
+                android:text="Quiz Instructions" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. There are five questions to answer" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp">
+
+                </View>
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. The correct answer will earn you one point" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp">
+
+                </View>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. You will receive 0 points for the wrong answer" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp">
+
+                </View>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. The following is a full math quiz" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp">
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. A variety of math topics" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp">
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. You can choose from four possible answers" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp">
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. Answers must be confirmed" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp">
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8. Your final score will be displayed at the end of the quiz" />
+
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp">
+
+                </View>
+
+                <Button
+                    android:id="@+id/startgame"
+                    android:layout_width="300dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:text="Start Quiz"
+                    >
+
+                </Button>
+
+
+                <Button
+                    android:id="@+id/btngohome"
+                    android:layout_width="300dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:text="Go Home"
+                    >
+
+                </Button>
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

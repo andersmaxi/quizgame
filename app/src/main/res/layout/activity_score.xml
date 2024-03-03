@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/quiz"
+    tools:context=".ScoreActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="480dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/design_default_color_primary"
+                android:layout_gravity="center_horizontal"
+                android:text="Your Score" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </View>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/trophy"
+                    />
+
+
+
+
+
+            <TextView
+                android:id="@+id/yourscore"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:layout_margin="30dp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="#010415"
+                android:background="#97F2FD"
+                android:layout_gravity="center_horizontal"
+                android:text="0" />
+
+                <TextView
+                    android:id="@+id/yourscoredetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:textColor="#7B8287"
+
+                    android:gravity="center"
+                    android:text="" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp">
+
+                </View>
+
+                <Button
+                    android:id="@+id/btn_retest"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Retest"
+                    android:layout_height="wrap_content" >
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btnhome"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:text="Go Home"
+                    >
+
+                </Button>
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:textColor="#7B8287"
+
+                    android:gravity="center"
+                    android:text="" />
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

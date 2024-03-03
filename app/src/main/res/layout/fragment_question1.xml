@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+
+    tools:context=".Question1Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Total Questions: 1/5" />
+    
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q1. What is the value of sin(60)?" />
+
+    <RadioGroup
+        android:id="@+id/rg_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/q1_A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. 1/4">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/q1_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B. 1/2">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/q1_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. -1/2">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/q1_D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. sqrt(3)/2">
+        </RadioButton>
+    </RadioGroup>
+
+</LinearLayout>

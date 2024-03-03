@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question2Fragment"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Total Questions: 2/5" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q2. If a + b = y, what is a^2 + 2ab + b^2?">
+
+    </TextView>
+
+
+    <RadioGroup
+        android:id="@+id/rg_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/q2_A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. y">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/q2_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B. 2y">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/q2_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Y^2">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/q2_D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. 2Y^2">
+        </RadioButton>
+    </RadioGroup>
+</LinearLayout>

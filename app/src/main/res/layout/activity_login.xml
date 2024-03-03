@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/quiz"
+    tools:context=".LoginActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="500dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-100dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logoquiz"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Login"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </View>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterOverflowTextAppearance="@color/cardview_light_background"
+                app:counterTextAppearance="@color/design_default_color_primary"
+                app:errorEnabled="true"
+                app:errorIconDrawable="@null">
+
+                <EditText
+                    android:id="@+id/txtemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress">
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+            </View>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterOverflowTextAppearance="@color/cardview_light_background"
+                app:counterTextAppearance="@color/design_default_color_primary"
+                app:errorEnabled="true"
+                app:errorIconDrawable="@null"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/txtpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:ems="100"
+                    android:hint="Password"
+                    android:inputType="textPassword"></EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </View>
+
+
+            <Button
+                android:id="@+id/btnsignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login">
+
+            </Button>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </View>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Don't have an account ?">
+            </TextView>
+
+            <TextView
+                android:id="@+id/link_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="all"
+                android:linksClickable="true"
+                android:text="@string/link_signup"
+                android:textColorLink="@color/design_default_color_primary">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
